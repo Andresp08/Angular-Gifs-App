@@ -7,6 +7,7 @@ import { GifsService } from '../services/gifs.service';
   styles: [],
 })
 export class BusquedaComponent {
+  
   @ViewChild('txtBuscar') txtBuscar!: ElementRef<HTMLInputElement>;
 
   constructor(private gifsService: GifsService) {}
